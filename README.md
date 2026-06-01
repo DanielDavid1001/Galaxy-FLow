@@ -1,3 +1,3 @@
-****Galaxy Flow****
+# Galaxy Flow
 
 **My first Game :)**
