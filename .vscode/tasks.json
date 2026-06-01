@@ -1,0 +1,57 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "shell",
+      "label": "Compilar com Raylib e pthread",
+      "command": "C:/mingw64/bin/gcc.exe",
+      "args": [
+        "-std=c11",
+        "-static",
+        "-pthread",
+        "-fdiagnostics-color=always",
+        "-g",
+        "main.c",
+        "resource_loader.c",
+        "audio_loader.c",
+        "-o",
+        "meu_jogo.exe",
+        "-lraylib",
+        "-lopengl32",
+        "-lgdi32",
+        "-lwinmm"
+],
+      "options": {
+        "cwd": "C:/mingw64/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Compilação com Raylib, pthread e C11"
+    },
+    {
+      "type": "cppbuild",
+      "label": "C/C++: gcc.exe build active file",
+      "command": "C:/mingw64/bin/gcc.exe",
+      "args": [
+        "-fdiagnostics-color=always",
+        "-g",
+        "${file}",
+        "-o",
+        "${fileDirname}\\${fileBasenameNoExtension}.exe"
+      ],
+      "options": {
+        "cwd": "C:/mingw64/bin"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": "build",
+      "detail": "compiler: C:/mingw64/bin/gcc.exe"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+*********************************************************** Comandos do Jogo ***************************************************************
+*                                                                                                                                          *                             
+* Teclas de movimento                                                                                                                      *                            
+*                                                                                                                                          *                             
+* • ↓ ← ↑ →                                                                                                                                *
+*                                                                                                                                          *
+* Tecla de disparo                                                                                                                         *
+* • F                                                                                                                                      *
+*                                                                                                                                          *                                                                                                                                                                        
+* Tecla de troca de armas                                                                                                                  *     
+* • 1, 2 , 3                                                                                                                               *
+*                                                                                                                                          *
+* Tecla "ESC" direciona para a seleção de sair ou permanecer                                                                               *
+*                                                                                                                                          *
+*                                                                                                                                          *                      
+*  {Nota este é um alpha sujeito a múltiplas e drásticas mudanças)                                                                         *
+*                                                                                                                                          *
+********************************************************************************************************************************************                                                                                                                                          
